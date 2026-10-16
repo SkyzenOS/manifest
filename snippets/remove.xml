@@ -35,7 +35,6 @@
 
   <!-- external -->
   <remove-project name="platform/external/avb" />
-  <remove-project name="platform/external/dng_sdk" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
@@ -77,9 +76,7 @@
   <!-- packages -->
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/UprobeStats" />
   <remove-project name="platform/packages/modules/Wifi" />
