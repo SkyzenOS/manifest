@@ -36,6 +36,9 @@
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" remote="lineage" />
   <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="lineage" />
 
+  <!-- frameworks -->
+  <project path="frameworks/proto_logging" name="LineageOS/android_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="lineage" />
+
   <!-- hardware -->
   <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
   <project path="hardware/google/camera" name="LineageOS/android_hardware_google_camera" groups="pdk" remote="lineage" />
