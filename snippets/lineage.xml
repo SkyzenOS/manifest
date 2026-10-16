@@ -155,6 +155,7 @@
   <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="lineage" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
+  <project path="system/apex" name="LineageOS/android_system_apex" groups="pdk" remote="lineage" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
 
   <!-- tools -->
