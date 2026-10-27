@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- bootable -->
+  <remove-project name="platform/bootable/deprecated-ota" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- external -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zstd" />
+
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!-- hardware -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+
+  <!-- system -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
+
+</manifest>
